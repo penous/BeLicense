@@ -1,6 +1,6 @@
-## BeLicense
+# BeLicense
 
-# Requirements
+## Requirements
 
 ### Perfection is not a detail
 - [ ] All buttons and links work
