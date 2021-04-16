@@ -13,29 +13,57 @@
 </head>
 <body>
     <!-- Navbar content -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">BeLicense</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand" href="index.html">BeLicense</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="product.html">Products <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="partners.html">Partners</a>
-                    <a class="nav-link" href="product.html">Products</a>
-                    <a class="nav-link" href="about.html">About Us</a>
-                </div>
-            </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
+    <!------- header img--------->
     <div class="container">
-        <div class="row">
-            <div class="col text-center rounded first">
-                <h2>Our mission</h2>
-                <P>We provide you licenses</P>
-                <a class="btn btn-primary" href="#" role="button">Learn More</a>
+        <img src="images/computer.jpg" class="" alt="...">
+    </div>
+    <!------- body-------->
+    <div class="container">
+        <div class="row m-5">
+            <div class="col-xl-5 text-center rounded m-2" id="who-we">
+                <h2>What we value</h2>
+                <P>Our mission is to empower every person on the planet to achieve more.</P>
             </div>
-            <div class="col text-center rounded first">col</div>
-</body>
+            <div class="col-xl-5 text-center rounded m-2" id="who">
+                <h2>Who we are</h2>
+                <p>We are a company that sells all kinds of licenses for any profession you want,
+                Hurry up and apply for your license today.</p>
+            </div>
+        </div>
+        </div>
+    <!----contact form----->
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control p-2 mr-3" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Ask for a license</label>
+        <textarea class="form-control p-2 mr-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <a class="btn btn-primary ml-3 p-1" href="#" role="button">Request</a>
+    </div>
+ </body>
 </html>
