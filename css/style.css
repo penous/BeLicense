@@ -7,13 +7,70 @@ body {
 }
 
 .first {
-  background-color: #a3abb0;
-  margin: 20px;
+    background-color: #A3ABB0;
+    margin: 20px;
 }
 
-.colcol {
-  background: #37474f;
-  box-shadow: #0c5460;
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header Parallax Element Style*/
+.paral {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('./../images/dreambig.png');
+    background-size: cover;
+    overflow:  hidden;
+    height: 100vh;
+}
+
+/* Paragraph for Parallax Section */
+.paral p {
+    font-style:italic;
+    font-size: 24px;
+    color:#fdfcfa;
+    text-align: left;
+    padding-left: 150px;
+    line-height: 60px;
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+    color: #fdfcfa;
+    font-size: 60px;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 120px;
+    line-height: 100px;
+}
+
+.btngettlicensemain{
+    font-style: initial;
+    background-color: #c47062;
+    border: #c47062;
+    color: #fdfcfa;
+}
+
+.btngettlicensemain:hover,.btngettlicensemain:focus, .btngettlicensemain:active {
+    background-color:transparent!important;
+    color:#c47062!important;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#c47062!important;
+    box-shadow: none!important;
+    outline: none!important;
+}
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;
+}
+
+
+.colcol{
+    background:#37474f;
+    box-shadow: #0c5460;
 }
 
 .licensetext {
@@ -34,20 +91,11 @@ body {
   color: #fdfcfa;
 }
 
-.btn:focus,
-.btn:active {
-  outline: none !important;
-  box-shadow: none;
-}
-
-.btngetlicense:hover,
-.btngetlicense:active,
-.btngetlicense:visited,
-.btngetlicense:focus {
-  background-color: #9c594e !important;
-  border: none !important;
-  outline-color: none !important;
-  box-shadow: none !important;
+.btngetlicense:hover, .btngetlicense:active, .btngetlicense:visited, .btngetlicense:focus {
+    background-color:#9c594e!important;
+    border: none!important;
+    outline-color: none!important;
+    box-shadow: none!important;
 }
 
 .modal-backdrop {
@@ -75,6 +123,7 @@ body {
   display: block;
   margin-bottom: 10px;
 }
+
 
 .modaljonas {
   color: #fdfcfa;
@@ -118,6 +167,13 @@ body {
   box-shadow: none !important;
 }
 
+.btnaccjonas:hover, .btnaccjonas:active,.btnaccjonas:visited,.btnaccjonas:focus {
+    background-color:#3c695f!important;
+    border: none!important;
+    outline-color: none!important;
+    box-shadow: none!important;
+}
+
 .btndecjonas {
   background-color: #c47062;
   border: transparent;
@@ -132,3 +188,11 @@ body {
   outline-color: none !important;
   box-shadow: none !important;
 }
+
+.btndecjonas:hover, .btndecjonas:active, .btndecjonas:visited, .btndecjonas:focus {
+    background-color:#9c594e!important;
+    border: none!important;
+    outline-color: none!important;
+    box-shadow: none!important;
+}
+

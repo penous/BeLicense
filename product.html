@@ -11,19 +11,32 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/bootstrap.bundle.js" defer></script>
 
-
     <title>Product</title>
 </head>
 <body>
 
+
+<!-- parallax image -->
+<div class="jumbotron paral paralsec">
+    <h1 class="display-3">BeLicense products</h1>
+    <p class="lead">Dream. Create. Discover.</p>
+    <p class="lead">Make it simple but significant</p>
+    <p class="lead">
+        <a class="btn btn-info btn-lg btn-md btngettlicensemain" href="#ourservices" role="button">Go to licenses</a>
+    </p>
+</div>
+
+
+
+<!-- row our services -->
 <div class="col-sm-12 col-md d-grid">
     <div class="row">
-        <div class ="col-sm-12 content text-center mt-2 pt-2 flex-column d-flex">
+        <div id="ourservices" class ="col-sm-12 content text-center mt-2 pt-2 flex-column d-flex">
             <h2>OUR SERVICES</h2>
             <p>...</p>
-
         </div>
     </div>
+    <!--First row of products-->
     <div class="row">
         <div class="col-sm-12 col-md content text-center p-4 m-4 shadow-lg rounded flex-column d-flex colcol">
             <img src="./images/logastronaut.png"
@@ -62,7 +75,7 @@
                 Get license</button>
         </div>
     </div>
-
+    <!--Second row of products-->
     <div class="row">
         <div class="col-sm-12 col-md content text-center p-4 m-4 shadow-lg rounded flex-column d-flex colcol">
             <img src="./images/logskydiving.png"
@@ -102,7 +115,7 @@
         </div>
     </div>
 </div>
-
+<!--8 modals, each grid item gets a modal dialog-->
 <div class="modal fade" id="addastro" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content modaljonas">
@@ -255,7 +268,6 @@
         </div>
     </div>
 </div>
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
