@@ -132,3 +132,27 @@ body {
   outline-color: none !important;
   box-shadow: none !important;
 }
+
+/* -------------------------
+         Tom css
+------------------------- */
+
+.nav-color {
+  background-color: #37474f;
+}
+.nav-color a {
+  color: #fdfcfa;
+  font-size: 1.5rem;
+}
+.nav-btn {
+  color: #d5c9be;
+  border-color: #d5c9be;
+}
+.nav-btn:hover {
+  color: #37474f;
+  background-color: #d5c9be;
+  border-color: #d5c9be;
+}
+.navbar-brand-size {
+  font-size: 2.4rem !important;
+}
