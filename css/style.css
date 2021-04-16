@@ -3,7 +3,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.first {
-    background-color: #A3ABB0;
-    margin: 20px;
+#who-we,
+#who {
+    background-color: #37474f;
+    color: #fffefb;
+    box-shadow: 2px 5px grey;
 }
