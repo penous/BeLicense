@@ -8,12 +8,69 @@ body{
 .first {
     background-color: #A3ABB0;
     margin: 20px;
-    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header Parallax Element Style*/
+.paral {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('./../images/dreambig.png');
+    background-size: cover;
+    overflow:  hidden;
+    height: 100vh;
+}
+
+/* Paragraph for Parallax Section */
+.paral p {
+    font-style:italic;
+    font-size: 24px;
+    color:#fdfcfa;
+    text-align: left;
+    padding-left: 150px;
+    line-height: 60px;
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+    color: #fdfcfa;
+    font-size: 60px;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 120px;
+    line-height: 100px;
+}
+
+.btngettlicensemain{
+    font-style: initial;
+    background-color: #c47062;
+    border: #c47062;
+    color: #fdfcfa;
+}
+
+.btngettlicensemain:hover,.btngettlicensemain:focus, .btngettlicensemain:active {
+    background-color:transparent!important;
+    color:#c47062!important;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#c47062!important;
+    box-shadow: none!important;
+    outline: none!important;
+}
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;
+}
+
 
 .colcol{
     background:#37474f;
     box-shadow: #0c5460;
-        }
+}
 
 .licensetext{
     text-align: justify;
@@ -31,11 +88,6 @@ body{
     background-color:#c47062;
     border: transparent;
     color: #fdfcfa;
-}
-
-.btn:focus,.btn:active {
-    outline: none !important;
-    box-shadow: none;
 }
 
 .btngetlicense:hover, .btngetlicense:active, .btngetlicense:visited, .btngetlicense:focus {
@@ -75,13 +127,13 @@ body{
     color: #fdfcfa;
     background-color: #37474f;
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2) ;
-    }
+}
 
 .inputjonas{
     background-color: #307697;
     color: #fdfcfa;
     border: transparent;
-    }
+}
 
 .inputjonas[type=text]:focus {
     background-color: #307697;
@@ -108,7 +160,7 @@ body{
     border: none!important;
     outline-color: none!important;
     box-shadow: none!important;
-    }
+}
 
 .btndecjonas{
     background-color: #c47062;
@@ -120,4 +172,4 @@ body{
     border: none!important;
     outline-color: none!important;
     box-shadow: none!important;
-    }
+}
