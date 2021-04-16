@@ -1,11 +1,206 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fdfcfa;
+  color: #fdfcfa;
 }
+
 #who-we,
 #who {
     background-color: #37474f;
     color: #fffefb;
     box-shadow: 2px 5px grey;
 }
+
+
+.first {
+    background-color: #A3ABB0;
+    margin: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header Parallax Element Style*/
+.paral {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('./../images/dreambig.png');
+    background-size: cover;
+    overflow:  hidden;
+    height: 100vh;
+}
+
+/* Paragraph for Parallax Section */
+.paral p {
+    font-style:italic;
+    font-size: 24px;
+    color:#fdfcfa;
+    text-align: left;
+    padding-left: 150px;
+    line-height: 60px;
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+    color: #fdfcfa;
+    font-size: 60px;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 120px;
+    line-height: 100px;
+}
+
+.btngettlicensemain{
+    font-style: initial;
+    background-color: #c47062;
+    border: #c47062;
+    color: #fdfcfa;
+}
+
+.btngettlicensemain:hover,.btngettlicensemain:focus, .btngettlicensemain:active {
+    background-color:transparent!important;
+    color:#c47062!important;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#c47062!important;
+    box-shadow: none!important;
+    outline: none!important;
+}
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;
+}
+
+
+.colcol{
+    background:#37474f;
+    box-shadow: #0c5460;
+}
+
+.licensetext {
+  text-align: justify;
+  text-align: center;
+  color: #fdfcfa;
+}
+
+.belicensep {
+  text-align: justify;
+  text-align: center;
+  color: #fffaf0;
+}
+
+.btngetlicense {
+  background-color: #c47062;
+  border: transparent;
+  color: #fdfcfa;
+}
+
+.btngetlicense:hover, .btngetlicense:active, .btngetlicense:visited, .btngetlicense:focus {
+    background-color:#9c594e!important;
+    border: none!important;
+    outline-color: none!important;
+    box-shadow: none!important;
+}
+
+.modal-backdrop {
+  background-color: dimgrey;
+}
+
+.vet {
+  display: block;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.cost {
+  text-align: justify;
+  font-size: large;
+  text-align: center;
+  display: block;
+}
+
+.costm {
+  text-align: justify;
+  font-size: large;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.modaljonas {
+  color: #fdfcfa;
+  background-color: #37474f;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inputjonas {
+  background-color: #307697;
+  color: #fdfcfa;
+  border: transparent;
+}
+
+.inputjonas[type='text']:focus {
+  background-color: #307697;
+  color: #fdfcfa;
+  border: transparent;
+}
+
+.modal-body {
+  padding-bottom: 8px;
+}
+
+.modal-footer {
+  border-top: none;
+  padding-top: 0px;
+}
+
+.btnaccjonas {
+  background-color: #4b8378;
+  border: transparent;
+  color: #fdfcfa;
+}
+.btnaccjonas:hover,
+.btnaccjonas:active,
+.btnaccjonas:visited,
+.btnaccjonas:focus {
+  background-color: #3c695f !important;
+  border: none !important;
+  outline-color: none !important;
+  box-shadow: none !important;
+}
+
+.btnaccjonas:hover, .btnaccjonas:active,.btnaccjonas:visited,.btnaccjonas:focus {
+    background-color:#3c695f!important;
+    border: none!important;
+    outline-color: none!important;
+    box-shadow: none!important;
+}
+
+.btndecjonas {
+  background-color: #c47062;
+  border: transparent;
+  color: #fdfcfa;
+}
+.btndecjonas:hover,
+.btndecjonas:active,
+.btndecjonas:visited,
+.btndecjonas:focus {
+  background-color: #9c594e !important;
+  border: none !important;
+  outline-color: none !important;
+  box-shadow: none !important;
+}
+
+.btndecjonas:hover, .btndecjonas:active, .btndecjonas:visited, .btndecjonas:focus {
+    background-color:#9c594e!important;
+    border: none!important;
+    outline-color: none!important;
+    box-shadow: none!important;
+}
+
