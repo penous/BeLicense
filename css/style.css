@@ -6,6 +6,55 @@ body {
   color: #fdfcfa;
 }
 
+.hard {
+    background-color: #37474f;
+    margin: 50px 25px;
+    padding: 20px 10px;
+    border-radius: 4px;
+}
+
+/*form Style*/
+
+
+.contact-section {
+    padding: 40px 0;
+}
+.contact-section h2 {
+text-align: center;
+    color: #37474f;
+}
+.border {
+    width: 100px;
+    height: 10px;
+    background-color: #c47062;
+    margin: 40px auto;
+}
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background-color: #37474f;
+    padding: 20px 40px;
+    outline: none;
+    color: #fffefb;
+    transition: 0.5s;
+}
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #c47062;
+}
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
 #who-we,
 #who {
   background-color: #37474f;
@@ -22,6 +71,21 @@ body {
   background-color: #a3abb0;
   margin: 20px;
 }
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #c47062;
+    color: #fffefb;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover {
+    background: #d5c9b3;
+}
+
 
 html {
   scroll-behavior: smooth;
