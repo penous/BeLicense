@@ -11,13 +11,6 @@ body {
   color: #fdfcfa;
 }
 
-#who-we,
-#who {
-  background-color: #37474f;
-  color: #fffefb;
-  box-shadow: 2px 5px grey;
-}
-
 #ourservices {
   color: #37474f;
   padding-top: 40px;
@@ -228,10 +221,14 @@ html {
 }
 
 .nav-color {
-  /* background-color: #37474f; */
+  background-color: #37474f;
+}
+
+.nav-color-transparant {
   background-color: transparent;
 }
-.nav-color a {
+.nav-color a,
+.nav-color-transparant a {
   color: #fdfcfa;
   font-size: 1.5rem;
 }
@@ -248,14 +245,17 @@ html {
   font-size: 2.4rem !important;
 }
 
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(253, 252, 250, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(253, 252, 250, 0.2);
+}
+
 /* Partner page css */
 
 .partner-header {
-  /* background-image: url(../images/wallhaven-zm5vxo.jpg); */
-  /* background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   overflow: hidden;
 }
 
@@ -270,7 +270,6 @@ html {
   width: 100vw;
   top: 0;
   left: 0;
-  /* background-image: url(../images/Partners-background.png); */
   background-image: url(../images/wallhaven-zm5vxo.jpg);
   position: absolute;
   z-index: -1;
@@ -278,10 +277,6 @@ html {
 
 .partner-top-content {
   background-color: rgba(1, 1, 1, 0.3);
-}
-
-.partner-header h1 {
-  /* margin-top: ; */
 }
 
 .container > h2 {
