@@ -21,7 +21,7 @@ Because some overlord called 'Sicco' made us do it.
 ## Current state of the website
 # Online
 
-[Partners page](./images/readme-screenshot)
+![Partners page](./images/readme-screenshot)
 
 
 ## Requirements
