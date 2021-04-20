@@ -1,7 +1,27 @@
 # BeLicense
 ## The team
 
-Our team consists of Alex, Jonas, Tom and Zakaria. @jonasRossou123
+Our team consists of [Alex](https://github.com/alexdebeukelaar), [Jonas](https://github.com/JonasRossou123), [Tom](https://github.com/penous) and [Zakaria](https://github.com/zakaria-altammo).
+
+## The why
+
+This company was built for people that dont like those 7 month courses and just want to get to business.
+You have a dream but people say you can't accomplish it? You need this thing called a diploma?
+We at BeLicense say NO! You do want you want right now starting today.
+Accomplish your dream of being a pilot or neurosurgeon.
+
+## Repository
+
+This repo is where our current website is hosted
+
+## Why github
+
+Because some overlord called 'Sicco' made us do it.
+
+## Current state of the website
+# Online
+
+![Partners page](./images/readme-screenshot.png)
 
 
 ## Requirements
@@ -20,8 +40,8 @@ Our team consists of Alex, Jonas, Tom and Zakaria. @jonasRossou123
 
 ### Content
 
-- [-] Openinghours (if needed)
-- [-] Address (if needed)
+- [x] Openinghours (if needed)
+- [x] Address (if needed)
 - [x] Clickable email
 - [x] A working form (you can use https://formspree.io)
 
@@ -117,7 +137,7 @@ Our team consists of Alex, Jonas, Tom and Zakaria. @jonasRossou123
 - [x] Navigation is in a nav
 - [x] Lists use list tags
 - [x] H tags are used to signal importance
-- [-] No div is used where another element is available
+- [ ] No div is used where another element is available
 - [x] No span is used where another element is available
 - [x] No inline styling is put on any element
 - [x] Id's are only used once
