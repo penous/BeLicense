@@ -1,7 +1,7 @@
 # BeLicense
 ## The team
 
-Our team consists of [Alex](https://github.com/alexdebeukelaar), [Jonas](https://github.com/JonasRossou123), [Tom](https://github.com/penous) and Zakaria [Zakaria](https://github.com/zakaria-altammo).
+Our team consists of [Alex](https://github.com/alexdebeukelaar), [Jonas](https://github.com/JonasRossou123), [Tom](https://github.com/penous) and [Zakaria](https://github.com/zakaria-altammo).
 
 ## The why
 
