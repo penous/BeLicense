@@ -62,13 +62,6 @@ textarea.contact-form-text {
     height: 120px;
 }
 
-#who-we,
-#who {
-  background-color: #37474f;
-  color: #fffefb;
-  box-shadow: 2px 5px grey;
-}
-
 #ourservices {
   color: #37474f;
   padding-top: 40px;
