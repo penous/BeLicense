@@ -1,4 +1,8 @@
 # BeLicense
+## The team
+
+Our team consists of Alex, Jonas, Tom and Zakaria. @jonasRossou123
+
 
 ## Requirements
 
