@@ -29,13 +29,22 @@ html {
 
 /* Header Parallax Element Style*/
 .paral {
+  padding: 0 10px 0 0;
+  background-image: url(../images/dreambig.png);
   background-attachment: fixed;
-  background-position: center;
+  border-radius: 0px;
+  background-position: right;
   background-repeat: no-repeat;
-  background-image: url('./../images/dreambig.png');
   background-size: cover;
-  overflow: hidden;
   height: 100vh;
+  }
+
+/* Heading for Parallax Section */
+.paral h1 {
+  color: #fdfcfa;
+  font-size: 60px;
+  padding-left: 7%;
+  padding-top: 3%;
 }
 
 /* Paragraph for Parallax Section */
@@ -43,20 +52,147 @@ html {
   font-style: italic;
   font-size: 24px;
   color: #fdfcfa;
-  text-align: left;
-  padding-left: 150px;
-  line-height: 60px;
+  padding-left: 10%;
+  line-height: 3rem;
 }
 
-/* Heading for Parallax Section */
-.paral h1 {
-  color: #fdfcfa;
-  font-size: 60px;
-  text-align: left;
-  padding-top: 60px;
-  padding-left: 120px;
-  line-height: 100px;
+
+@media screen and (max-width: 720px) and (min-height: 890px){
+  .paral {
+    height: 50vh;
+    background-size: auto 50vh;
+    background-position-x: right;
+    background-position-y: top;
+  }
+  .paral h1 {
+    font-size: 40px
+      }
+  .paral p {
+    line-height: 2rem;
+    font-size: 20px;
+  }
 }
+
+@media screen and (max-width: 620px) and (min-height: 760px) {
+  .paral {
+    height: 50vh;
+    background-size: auto 50vh;
+    background-position-x: right;
+    background-position-y: top;
+  }
+  .paral h1 {
+    font-size: 40px
+  }
+  .paral p {
+    line-height: 2rem;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .paral {
+
+  }
+  .paral h1 {
+    font-size: 40px
+  }
+  .paral p {
+    line-height: 2rem;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-height: 490px) {
+  .paral {
+
+  }
+  .paral h1 {
+    padding-top:5px;
+    font-size: 30px;
+  }
+  .paral p {
+    line-height: 2rem;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 404px) {
+  .paral {
+
+  }
+  .paral h1 {
+    padding-top:5px;
+    font-size: 30px
+  }
+  .paral p {
+    line-height: 1rem;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 308px) {
+  .paral {
+  }
+
+  .paral h1 {
+    padding-top:5px;
+    font-size: 15px
+  }
+  .paral p {
+    line-height: 5px;
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 520px) and (min-height: 632px) {
+  .paral {
+    height: 50vh;
+    background-size: auto 50vh;
+    background-position-x: right;
+    background-position-y: top;
+  }
+  .paral h1 {
+    font-size: 25px
+  }
+  .paral p {
+    line-height: 2rem;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) and (min-height: 512px) {
+  .paral {
+    height: 50vh;
+    background-size: auto 50vh;
+    background-position-x: right;
+    background-position-y: top;
+  }
+  .paral h1 {
+    font-size: 20px
+  }
+  .paral p {
+    line-height: 2rem;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) and (min-height: 400px) {
+  .paral {
+    height: 50vh;
+    background-size: auto 50vh;
+    background-position-x: right;
+    background-position-y: top;
+  }
+  .paral h1 {
+    font-size: 15px;
+      }
+  .paral p {
+    line-height: 5px;
+    font-size: 15px;
+  }
+}
+
 
 .btngettlicensemain {
   font-style: initial;
@@ -77,10 +213,13 @@ html {
   outline: none !important;
 }
 
+
 /* Remove Bottom Margin from Jumbotron */
 .jumbotron {
   margin-bottom: 0;
 }
+
+
 
 .colcol {
   background: #37474f;
@@ -208,12 +347,61 @@ html {
   box-shadow: none !important;
 }
 
+@media (max-width: 765px) {
+  .leftie {
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: #37474f;
+  color:#fdfcfa;
+}
+
+.inputjonas::placeholder{
+  color:#fdfcfa;
+  text-align: center;
+}
+
+.containermakeup{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bodycontent{
+  padding-right: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+footer p{
+  margin: 0 !important;
+  }
+
+.hrfooter {
+  border: 2px solid #fdfcfa;
+  width: 50vw;
+}
+
+.f-link {
+  text-decoration:none;
+  color: #fdfcfa;
+}
+.f-link:hover, .f-link:active, .f-link:visited {
+  color: #9c594e;
+}
+
+
+
 /* -------------------------
          Tom css
 ------------------------- */
 
 .nav-color {
-  background-color: #37474f;
+  background-color: transparent;
 }
 .nav-color a {
   color: #fdfcfa;
@@ -231,3 +419,4 @@ html {
 .navbar-brand-size {
   font-size: 2.4rem !important;
 }
+
