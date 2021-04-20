@@ -13,6 +13,10 @@ body {
   color: #fdfcfa;
 }
 
+.change-color {
+  color: #c47062;
+}
+
 .hard {
     background-color: #37474f;
     margin: 50px 25px;
