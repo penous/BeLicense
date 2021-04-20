@@ -144,3 +144,10 @@
 ### Team BeLicense
 
 - [x] Use a clear folder structure in your project
+
+### Team AdastrA
+- [x] Call to Action : add a form of email marketing via a newsletter signup
+### FLWR
+- [ ] Whenever you hover over an image, some text appears on top of it
+### Hilltop B&B
+- [x] Add at least one on hover animation
