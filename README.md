@@ -40,8 +40,8 @@ Because some overlord called 'Sicco' made us do it.
 
 ### Content
 
-- [-] Openinghours (if needed)
-- [-] Address (if needed)
+- [x] Openinghours (if needed)
+- [x] Address (if needed)
 - [x] Clickable email
 - [x] A working form (you can use https://formspree.io)
 
@@ -137,7 +137,7 @@ Because some overlord called 'Sicco' made us do it.
 - [x] Navigation is in a nav
 - [x] Lists use list tags
 - [x] H tags are used to signal importance
-- [-] No div is used where another element is available
+- [ ] No div is used where another element is available
 - [x] No span is used where another element is available
 - [x] No inline styling is put on any element
 - [x] Id's are only used once
